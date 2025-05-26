@@ -1,4 +1,4 @@
-**Makemore Part 1: Bigram Language Model**\n
+**Makemore Part 1: Bigram Language Model**<br/>
 **Overview**
 This repository contains the implementation of a bigram language model as part of the "Makemore" series, inspired by Andrej Karpathy's neural network tutorials. The model is built using PyTorch and trained on a dataset of names to predict the next character in a sequence based on the current character, effectively generating new names. This project demonstrates the basics of neural network training, including one-hot encoding, matrix multiplication, softmax, and gradient descent optimization.
 The code is provided in a Jupyter notebook (makemore_part1_bigrams.ipynb) and focuses on:
