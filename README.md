@@ -47,7 +47,7 @@ Generate sample names.
 **Key Sections in the Notebook:**
 
 Data Loading: Reads names.txt and splits it into a list of words.
-Bigram Counting: Creates a dictionary of bigram frequencies with special <S> and <E> tokens for start and end.
+Bigram Counting: Creates a dictionary of bigram frequencies with special "<S> and <E>" tokens for start and end.
 Neural Network:
 One-hot encodes input characters.
 Uses a weight matrix (W) to predict logits.
