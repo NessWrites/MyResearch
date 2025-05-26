@@ -21,16 +21,16 @@ Dataset: The names.txt file containing a list of names (one per line) should be 
 **Clone the repository:**
 git clone https://github.com/your-username/makemore-part1-bigrams.git
 cd makemore-part1-bigrams
-
+**
 Usage
 
-Prepare the Dataset:
+Prepare the Dataset:**
 
 Ensure names.txt is in the project root directory. This file contains a list of names used for training the model.
 The notebook expects the dataset to be in the same directory as makemore_part1_bigrams.ipynb.
 
 
-Run the Notebook:
+**Run the Notebook:**
 
 Open the Jupyter notebook:jupyter notebook makemore_part1_bigrams.ipynb
 
@@ -68,7 +68,7 @@ anchthizarie.
 
 
 
-Dataset
+**Dataset**
 The dataset (names.txt) contains 32,033 unique names, one per line. The names range in length from 2 to 15 characters. The model treats each name as a sequence of characters, augmented with special tokens (. for start and end) to model bigram transitions.
 Example names from the dataset:
 emma
@@ -77,7 +77,7 @@ ava
 isabella
 sophia
 
-Project Structure
+**Project Structure**
 makemore-part1-bigrams/
 │
 ├── makemore_part1_bigrams.ipynb  # Main Jupyter notebook with the bigram model
