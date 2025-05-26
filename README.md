@@ -7,8 +7,8 @@ Loading and preprocessing a dataset of names.
 Building a bigram model by counting character transitions.
 Training a neural network to learn bigram probabilities.
 Sampling from the trained model to generate new names.
-
-Installation
+<br/>
+**Installation**
 To run the code, you need Python 3.6+ and the following dependencies:
 pip install torch matplotlib
 
@@ -19,7 +19,7 @@ Jupyter Notebook: To run the .ipynb file interactively.
 Dataset: The names.txt file containing a list of names (one per line) should be in the project directory.
 
 **Clone the repository:**
-git clone https://github.com/your-username/makemore-part1-bigrams.git
+git clone https://github.com/your-username/makemore-part1-bigrams.git<br/>
 cd makemore-part1-bigrams
 **
 Usage
@@ -53,12 +53,12 @@ One-hot encodes input characters.
 Uses a weight matrix (W) to predict logits.
 Applies softmax to obtain probabilities.
 Computes negative log likelihood loss.
-
+<br/>
 
 Training: Performs gradient descent with L2 regularization to optimize the weights.
 Sampling: Generates new names by sampling from the trained model's probability distribution.
 
-
+<br/>
 Sample Output:After training, the model generates names like:
 mor.
 axx.
@@ -66,7 +66,7 @@ minaymoryles.
 kondlaisah.
 anchthizarie.
 
-
+<br/>
 
 **Dataset**
 The dataset (names.txt) contains 32,033 unique names, one per line. The names range in length from 2 to 15 characters. The model treats each name as a sequence of characters, augmented with special tokens (. for start and end) to model bigram transitions.
@@ -76,7 +76,7 @@ olivia
 ava
 isabella
 sophia
-
+<br/>
 **Project Structure**
 makemore-part1-bigrams/<br/>
 │<br/>
@@ -84,17 +84,17 @@ makemore-part1-bigrams/<br/>
 ├── names.txt                     # Dataset of names (not included, add your own) <br/>
 ├── README.md                     # This file <br/>
 
-Notes
+**Notes**
 
 The model uses a fixed random seed (2147483647) for reproducibility.
 Training is performed with a single epoch in the provided code, but you can increase the number of iterations for better results.
 The loss function includes L2 regularization (0.01*(W**2).mean()) to prevent overfitting.
 The notebook includes visualizations (e.g., bigram frequency matrix) using matplotlib.
-
-License
+<br/>
+**License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 Acknowledgments
-
+<br/>
 Inspired by Andrej Karpathy's "Makemore" series on building neural networks for language modeling.
 Built with PyTorch and Jupyter Notebook.
 
