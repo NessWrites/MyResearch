@@ -78,11 +78,11 @@ isabella
 sophia
 
 **Project Structure**
-makemore-part1-bigrams/
-│
-├── makemore_part1_bigrams.ipynb  # Main Jupyter notebook with the bigram model
-├── names.txt                     # Dataset of names (not included, add your own)
-├── README.md                     # This file
+makemore-part1-bigrams/<br/>
+│<br/>
+├── makemore_part1_bigrams.ipynb  # Main Jupyter notebook with the bigram model <br/>
+├── names.txt                     # Dataset of names (not included, add your own) <br/>
+├── README.md                     # This file <br/>
 
 Notes
 
